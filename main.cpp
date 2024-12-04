@@ -26,6 +26,9 @@ int main() {
         case 3: Ejercicio3(); break;
         case 4: Ejercicio4(); break;
         case 5: Ejercicio5(); break;
+
+        default:
+            std::cout << "Ejercicio no encontrado" << std::endl;
     }
 
     return 0;
