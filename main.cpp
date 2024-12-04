@@ -5,10 +5,19 @@
 #include <iostream>
 
 #include "ejercicio1/Ejercicio1.h"
+#include "ejercicio2/Ejercicio2.h"
 
 int main() {
 
-    Ejercicio1();
+    int opt = 0;
+
+    std::cout << "Elija el ejercicio a ejecutar: ";
+    std::cin >> opt;
+
+    switch (opt) {
+        case 1: Ejercicio1(); break;
+        case 2: Ejercicio2(); break;
+    }
 
     return 0;
 }
