@@ -14,4 +14,6 @@ add_executable(Cpp_STL
         ejercicio2/Triangulo.cpp
         ejercicio2/Triangulo.h
         ejercicio3/Ejercicio3.cpp
-        ejercicio3/Ejercicio3.h)
+        ejercicio3/Ejercicio3.h
+        ejercicio4/Ejercicio4.cpp
+        ejercicio4/Ejercicio4.h)
