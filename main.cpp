@@ -9,6 +9,7 @@
 #include "ejercicio2/Ejercicio2.h"
 #include "ejercicio3/Ejercicio3.h"
 #include "ejercicio4/Ejercicio4.h"
+#include "ejercicio5/Ejercicio5.h"
 
 int main() {
 
@@ -24,6 +25,7 @@ int main() {
         case 2: Ejercicio2(); break;
         case 3: Ejercicio3(); break;
         case 4: Ejercicio4(); break;
+        case 5: Ejercicio5(); break;
     }
 
     return 0;
