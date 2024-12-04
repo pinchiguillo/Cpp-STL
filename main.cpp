@@ -4,9 +4,11 @@
 
 #include <iostream>
 
+#include "ejercicio1/Ejercicio1.h"
+
 int main() {
 
-    std::cout << "Hello, World!" << std::endl;
+    Ejercicio1();
 
     return 0;
 }
