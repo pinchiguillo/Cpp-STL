@@ -6,11 +6,6 @@
 #define EJERCICIO2_H
 
 
-
-namespace Geometria {
-    double calcularAreaTriangulo(double base, double altura);
-}
-
 void Ejercicio2();
 
 

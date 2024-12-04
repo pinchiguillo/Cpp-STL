@@ -8,4 +8,8 @@ add_executable(Cpp_STL
         ejercicio1/Ejercicio1.h
         ejercicio1/Ejercicio1.cpp
         ejercicio2/Ejercicio2.cpp
-        ejercicio2/Ejercicio2.h)
+        ejercicio2/Ejercicio2.h
+        ejercicio2/Circulo.cpp
+        ejercicio2/Circulo.h
+        ejercicio2/Triangulo.cpp
+        ejercicio2/Triangulo.h)

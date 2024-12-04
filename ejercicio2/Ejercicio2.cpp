@@ -6,21 +6,16 @@
 
 #include <iostream>
 
-double Geometria::calcularAreaTriangulo(double base, double altura) {
-    return (base * altura) / 2;
-}
+#include "Circulo.h"
+#include "Triangulo.h"
 
 void Ejercicio2() {
 
-    double base = 0;
-    double altura = 0;
 
-    std::cout << "Introduce la base del triangulo: ";
-    std::cin >> base;
+    std::cout << "El area del triangulo de base 10 y altura 5 es: " << Geometria::calcularAreaTriangulo(10, 5) << std::endl;
 
-    std::cout << "Introduce la altura del triangulo: ";
-    std::cin >> altura;
+    std::cout << "El area del circulo de radio 5 es: " << Geometria::calcularAreaCirculo(5) << std::endl;
 
-    std::cout << "El area del triangulo es: " << Geometria::calcularAreaTriangulo(base, altura) << std::endl;
+
 
 }
