@@ -3,12 +3,15 @@
 //
 
 #include <iostream>
+#include <locale>
 
 #include "ejercicio1/Ejercicio1.h"
 #include "ejercicio2/Ejercicio2.h"
 #include "ejercicio3/Ejercicio3.h"
 
 int main() {
+
+    setlocale(LC_ALL, "es_ES.UTF-8");
 
     int opt = 0;
 
