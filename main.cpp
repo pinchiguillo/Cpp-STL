@@ -6,6 +6,7 @@
 
 #include "ejercicio1/Ejercicio1.h"
 #include "ejercicio2/Ejercicio2.h"
+#include "ejercicio3/Ejercicio3.h"
 
 int main() {
 
@@ -17,6 +18,7 @@ int main() {
     switch (opt) {
         case 1: Ejercicio1(); break;
         case 2: Ejercicio2(); break;
+        case 3: Ejercicio3(); break;
     }
 
     return 0;

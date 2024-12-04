@@ -12,4 +12,6 @@ add_executable(Cpp_STL
         ejercicio2/Circulo.cpp
         ejercicio2/Circulo.h
         ejercicio2/Triangulo.cpp
-        ejercicio2/Triangulo.h)
+        ejercicio2/Triangulo.h
+        ejercicio3/Ejercicio3.cpp
+        ejercicio3/Ejercicio3.h)
