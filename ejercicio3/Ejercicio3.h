@@ -6,6 +6,7 @@
 #define EJERCICIO3_H
 
 
+#include <iostream>
 
 namespace Geometria {
     class Circulo {
@@ -25,8 +26,7 @@ namespace Geometria {
     };
 }
 
-void Ejercicio3();
-
+void Ejercicio3(std::istream& in, std::ostream& out);
 
 
 #endif //EJERCICIO3_H

@@ -31,27 +31,41 @@ namespace Geometria {
     }
 }
 
-void Ejercicio3() {
-    // Crear una instancia de Circulo con radio inicial
-    Geometria::Circulo circulo1(5.0);
+void Ejercicio3(std::istream& in, std::ostream& out) {
+    // Solicitar radio inicial para el primer círculo
+    out << "Ingresa el radio inicial para el primer círculo: ";
+    double radioInicial1;
+    in >> radioInicial1;
+
+    // Crear una instancia de Circulo con el radio inicial ingresado
+    Geometria::Circulo circulo1(radioInicial1);
 
     // Mostrar los cálculos iniciales
-    std::cout << "Círculo con radio: " << circulo1.getRadio() << std::endl;
-    std::cout << "Área: " << circulo1.calcularArea() << std::endl;
-    std::cout << "Perímetro: " << circulo1.calcularPerimetro() << std::endl;
+    out << "\nCírculo con radio: " << circulo1.getRadio() << "\n";
+    out << "Área: " << circulo1.calcularArea() << "\n";
+    out << "Perímetro: " << circulo1.calcularPerimetro() << "\n";
+
+    // Solicitar nuevo radio para actualizar el círculo
+    out << "\nIngresa un nuevo radio para actualizar el círculo: ";
+    double nuevoRadio1;
+    in >> nuevoRadio1;
 
     // Modificar el radio utilizando el setter
-    circulo1.setRadio(10.0);
-    std::cout << "\nRadio actualizado a: " << circulo1.getRadio() << std::endl;
+    circulo1.setRadio(nuevoRadio1);
+    out << "Radio actualizado a: " << circulo1.getRadio() << "\n";
 
     // Mostrar los nuevos cálculos
-    std::cout << "Nueva área: " << circulo1.calcularArea() << std::endl;
-    std::cout << "Nuevo perímetro: " << circulo1.calcularPerimetro() << std::endl;
+    out << "Nueva área: " << circulo1.calcularArea() << "\n";
+    out << "Nuevo perímetro: " << circulo1.calcularPerimetro() << "\n";
 
-    // Crear otro círculo
-    Geometria::Circulo circulo2(7.0);
-    std::cout << "\nOtro círculo con radio: " << circulo2.getRadio() << std::endl;
-    std::cout << "Área: " << circulo2.calcularArea() << std::endl;
-    std::cout << "Perímetro: " << circulo2.calcularPerimetro() << std::endl;
+    // Solicitar radio para un segundo círculo
+    out << "\nIngresa el radio para otro círculo: ";
+    double radioInicial2;
+    in >> radioInicial2;
 
+    // Crear otro círculo con el radio ingresado
+    Geometria::Circulo circulo2(radioInicial2);
+    out << "\nOtro círculo con radio: " << circulo2.getRadio() << "\n";
+    out << "Área: " << circulo2.calcularArea() << "\n";
+    out << "Perímetro: " << circulo2.calcularPerimetro() << "\n";
 }
