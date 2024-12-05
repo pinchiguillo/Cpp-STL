@@ -8,8 +8,9 @@
 #include <map>
 #include <set>
 #include <iostream>
+#include "../iologger/MultiOstream.h"
 
-void Ejercicio5(std::istream& in, std::ostream& out) {
+void Ejercicio5(std::istream& in, MultiOstream& out) {
     // Vector
     out << "### VECTOR ###\n";
     std::vector<int> numeros {1, 2, 3, 4, 5};

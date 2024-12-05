@@ -7,6 +7,7 @@
 
 
 #include <iostream>
+#include "../iologger/MultiOstream.h"
 
 namespace Geometria {
     class Circulo {
@@ -26,7 +27,7 @@ namespace Geometria {
     };
 }
 
-void Ejercicio3(std::istream& in, std::ostream& out);
+void Ejercicio3(std::istream& in, MultiOstream& out);
 
 
 #endif //EJERCICIO3_H

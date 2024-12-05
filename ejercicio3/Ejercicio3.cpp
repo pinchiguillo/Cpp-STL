@@ -4,6 +4,7 @@
 
 #include "Ejercicio3.h"
 #include <iostream>
+#include "../iologger/MultiOstream.h"
 
 namespace Geometria {
 
@@ -31,7 +32,7 @@ namespace Geometria {
     }
 }
 
-void Ejercicio3(std::istream& in, std::ostream& out) {
+void Ejercicio3(std::istream& in, MultiOstream& out) {
     // Solicitar radio inicial para el primer círculo
     out << "Ingresa el radio inicial para el primer círculo: ";
     double radioInicial1;

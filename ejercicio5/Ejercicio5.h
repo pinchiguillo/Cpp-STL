@@ -7,8 +7,9 @@
 
 
 #include <iostream>
+#include "../iologger/MultiOstream.h"
 
-void Ejercicio5(std::istream& in, std::ostream& out);
+void Ejercicio5(std::istream& in, MultiOstream& out);
 
 
 

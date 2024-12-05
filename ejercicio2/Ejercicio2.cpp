@@ -4,12 +4,12 @@
 
 #include "Ejercicio2.h"
 
-#include <iostream>
+#include "../iologger/MultiOstream.h"
 
 #include "Circulo.h"
 #include "Triangulo.h"
 
-void Ejercicio2(std::istream& in, std::ostream& out) {
+void Ejercicio2(std::istream& in, MultiOstream& out) {
     double base, altura, radio;
 
     // Pedir al usuario los datos para el triángulo

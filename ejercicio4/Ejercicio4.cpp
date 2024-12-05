@@ -5,6 +5,7 @@
 #include "Ejercicio4.h"
 
 #include <iostream>
+#include "../iologger/MultiOstream.h"
 
 namespace Ciencia {
     namespace Fisica {
@@ -15,7 +16,7 @@ namespace Ciencia {
     }
 }
 
-void Ejercicio4(std::istream& in, std::ostream& out) {
+void Ejercicio4(std::istream& in, MultiOstream& out) {
     // Solicitar la masa al usuario
     out << "Ingresa la masa en kilogramos: ";
     double masa;

@@ -6,6 +6,7 @@
 #define EJERCICIO4_H
 
 #include <iostream>
+#include "../iologger/MultiOstream.h"
 
 namespace Ciencia {
     namespace Fisica {
@@ -17,7 +18,7 @@ namespace Ciencia {
     }
 }
 
-void Ejercicio4(std::istream& in, std::ostream& out);
+void Ejercicio4(std::istream& in, MultiOstream& out);
 
 
 
