@@ -4,8 +4,6 @@
 
 #include "Ejercicio1.h"
 
-#include <iostream>
-
 int Matematicas::suma(int a, int b) {
     return a + b;
 }
@@ -13,10 +11,14 @@ int Matematicas::resta(int a, int b) {
     return a - b;
 }
 
-void Ejercicio1() {
+void Ejercicio1(std::istream& in, std::ostream& out) {
+    int a, b;
 
-    std::cout << "Suma de 2 + 3 = " << Matematicas::suma(2, 3) << std::endl;
+    out << "Ingresa el primer número: ";
+    in >> a; // Leer desde el flujo de entrada
+    out << "Ingresa el segundo número: ";
+    in >> b; // Leer desde el flujo de entrada
 
-    std::cout << "Resta de 2 - 3 = " << Matematicas::resta(2, 3) << std::endl;
-
+    out << "Suma de " << a << " + " << b << " = " << Matematicas::suma(a, b) << std::endl; // Escribir en el flujo de salida
+    out << "Resta de " << a << " - " << b << " = " << Matematicas::resta(a, b) << std::endl; // Escribir en el flujo de salida
 }

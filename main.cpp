@@ -21,7 +21,7 @@ int main() {
     std::cin >> opt;
 
     switch (opt) {
-        case 1: Ejercicio1(); break;
+        case 1: Ejercicio1(std::cin, std::cout); break;
         case 2: Ejercicio2(); break;
         case 3: Ejercicio3(); break;
         case 4: Ejercicio4(); break;
