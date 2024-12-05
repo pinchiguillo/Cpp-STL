@@ -5,7 +5,7 @@
 #ifndef EJERCICIO4_H
 #define EJERCICIO4_H
 
-
+#include <iostream>
 
 namespace Ciencia {
     namespace Fisica {
@@ -17,7 +17,7 @@ namespace Ciencia {
     }
 }
 
-void Ejercicio4();
+void Ejercicio4(std::istream& in, std::ostream& out);
 
 
 

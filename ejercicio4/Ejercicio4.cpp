@@ -15,10 +15,15 @@ namespace Ciencia {
     }
 }
 
-void Ejercicio4() {
-    double masa = 10.0;
+void Ejercicio4(std::istream& in, std::ostream& out) {
+    // Solicitar la masa al usuario
+    out << "Ingresa la masa en kilogramos: ";
+    double masa;
+    in >> masa;
 
+    // Calcular la energía utilizando E = mc^2
     double energia = Ciencia::Fisica::calcularEnergia(masa);
 
-    std::cout << "La energía para una masa de " << masa << " kg es: " << energia << " Joules." << std::endl;
+    // Mostrar el resultado
+    out << "La energía para una masa de " << masa << " kg es: " << energia << " Joules.\n";
 }

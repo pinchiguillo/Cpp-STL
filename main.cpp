@@ -24,7 +24,7 @@ int main() {
         case 1: Ejercicio1(std::cin, std::cout); break;
         case 2: Ejercicio2(std::cin, std::cout); break;
         case 3: Ejercicio3(std::cin, std::cout); break;
-        case 4: Ejercicio4(); break;
+        case 4: Ejercicio4(std::cin, std::cout); break;
         case 5: Ejercicio5(); break;
 
         default:
