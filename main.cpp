@@ -22,7 +22,7 @@ int main() {
 
     switch (opt) {
         case 1: Ejercicio1(std::cin, std::cout); break;
-        case 2: Ejercicio2(); break;
+        case 2: Ejercicio2(std::cin, std::cout); break;
         case 3: Ejercicio3(); break;
         case 4: Ejercicio4(); break;
         case 5: Ejercicio5(); break;

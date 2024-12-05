@@ -6,7 +6,9 @@
 #define EJERCICIO2_H
 
 
-void Ejercicio2();
+#include <iostream>
+
+void Ejercicio2(std::istream& in, std::ostream& out);
 
 
 #endif //EJERCICIO2_H
