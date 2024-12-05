@@ -1,0 +1,4 @@
+Elija el ejercicio a ejecutar: Ingresa el primer número: Ingresa el segundo número: Suma de 2 + 3 = 5
+Resta de 2 - 3 = -1
+Elija el ejercicio a ejecutar: Ingresa el primer número: Ingresa el segundo número: Suma de 3 + 4 = 7
+Resta de 3 - 4 = -1

@@ -19,4 +19,5 @@ add_executable(Cpp_STL
         ejercicio4/Ejercicio4.cpp
         ejercicio4/Ejercicio4.h
         ejercicio5/Ejercicio5.cpp
-        ejercicio5/Ejercicio5.h)
+        ejercicio5/Ejercicio5.h
+        iologger/MultiOstream.h)

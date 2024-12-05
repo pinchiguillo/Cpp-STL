@@ -4,6 +4,8 @@
 
 #include "Ejercicio1.h"
 
+#include "../iologger/MultiOstream.h"
+
 int Matematicas::suma(int a, int b) {
     return a + b;
 }
@@ -11,7 +13,7 @@ int Matematicas::resta(int a, int b) {
     return a - b;
 }
 
-void Ejercicio1(std::istream& in, std::ostream& out) {
+void Ejercicio1(std::istream& in, MultiOstream& out) {
     int a, b;
 
     out << "Ingresa el primer número: ";
